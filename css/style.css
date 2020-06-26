@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    margin-top: 1px;
+    font-family: sans-serif;
+}
+.cabecalho{             /* Estilizando o header*/
+    max-width: 1300px;
+    width: 100%;
+    height: 80px;
+      
+}
+.menu{                  /* Estilizando a posição do Menu no header*/
+    margin-top:35px;
+    width: 100%;
+    background-color: #ff5240;
+    border-radius: 5px;
+}
+.menu ul{               /* Estilizando a Lista ordenada*/
+    margin: 0;
+    list-style: none;
+    
+    
+}
+.menu ul li {           /* Estilizando a parte de fora do Menu*/
+    display: inline;    
+    
+}
+
+.menu ul li a{          /* Estilizando o texto do menu*/
+    color: #f2f4f3;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 8px;
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+.menu ul li a:hover{    /* Estilizando os botões de menu assim que o mouse passar por cima*/
+    background-color: #f2f4f3;
+    transition: 1s;
+    color: #000000;
+
+}
+.final_rodape{
+    max-width: 1500px;
+    width: 100%;
+    background-color: #ff5240;
+ 
+    
+}
+.final_rodape a{
+    color: #f2f4f3;
+    text-decoration: none;
+}
+.final_rodape p{
+   color: #f2f4f3;
+   margin-left: 400px;
+   
+}
+.final_rodape a:hover{
+    color: black;
+}
+.texto{
+    max-width: 980px;
+    width: 100%;
+}
+.texto p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.texto h2{
+    color: #ff5240;
+    text-align: center;
+}
+   
+/*.modal{ Teste em Modal
+    position: fixed;
+    width: 400px;
+    height: 200px;
+    background-color:rgb(39, 179, 172);
+    top:50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -200px;
+    padding: 25px;
+    border-radius: 5px;
+    display: none;
+    
+}
+.modal form input[type=text],textarea{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 63%;
+    background-color: #FAFAFA;
+    padding: 10px;
+    line-height: 5px;
+}
+.modal a{
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+
+}*/
